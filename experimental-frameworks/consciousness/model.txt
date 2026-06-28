@@ -1,0 +1,18 @@
+World
+ ├── Rooms
+ │    ├── Recent Chat
+ │    ├── Objects
+ │    └── Occupants
+ │
+ ├── Agents
+ │    ├── Personality
+ │    ├── Relationships
+ │    ├── Goals
+ │    ├── Short Memory
+ │    └── Long Memory
+ │
+ └── Event Log
+      ├── Speech
+      ├── Movement
+      ├── Actions
+      └── Important Events

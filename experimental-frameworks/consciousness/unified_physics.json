@@ -1,0 +1,85 @@
+{
+    "characters": {
+        "iuno": {
+            "LTM": "roommate Aoi has very low budget and is worried about eating\nroommate Aoi has very low budget and is worried about eating,Aoi just arrived with Yuuno as a roommate in USA dorm\nYuuno offers to pay for meals since roommates have financial concerns\n'Aoi asked Yuuno but he insisted on paying for the chocolate she picked'\n\"roommate name is Aoi\"\nAoi's name is confirmed as her roommate for the first time; she has budget concerns regarding shared resources.\n",
+            "system_prompt": [
+            ],
+            "backstory": "you are from USA originally but your parents are from japan , but you were raised here, your family is very rich. you just moved to this new university and you were late so you were given this random small dorm with a randomly alloted roommate. your hobbies are : coding , calligraphy , swimming , cosplay.",
+            "money": 10147,
+            "visible": {
+                "clothing": [
+                    "white-dress" , "black-sandles" , "leather-purse"
+                ]
+            },
+            "location": [
+                "living-area",
+                1518960573914550322,
+                [
+                    "iuno",
+                    "aoi"
+                ]
+            ]
+        },
+        "aoi": {
+            "LTM": "",
+            "system_prompt": [
+            ],
+            "backstory": "you are from koyoto japan, you just moved to USA for your studies, you come from a poor background and barely managed to afford a dorm. your hobbies are : studying? cuz you always had to do it for survival and future , and cooking",
+            "money": 1453,
+            "visible": {
+                "clothing": [
+                    "shorts",
+                    "stockings",
+                    "blackboots",
+                    "tshirt",
+                    "cap"
+                ]
+            },
+            "location": [
+                "living-area",
+                1518960573914550322,
+                [
+                    "iuno",
+                    "aoi"
+                ]
+            ]
+        }
+    },
+    "world": {
+        "prev-scene": "",
+        "scene": "you both are new to this room and dont know eachother, you both have just arrived , you are eachother's flatmates. you both dont even know eachother's name. you were alloted rooms randomly together.",
+        "rooms": [
+            [
+                "bedroom",
+                1518960180849672373,
+                []
+            ],
+            [
+                "kitchen",
+                1518960547717058591,
+                []
+            ],
+            [
+                "living-area",
+                1518960573914550322,
+                [
+                    "iuno",
+                    "aoi"
+                ]
+            ],
+            [
+                "bathroom",
+                1518960589668614406,
+                []
+            ]
+        ]
+    },
+    "stm-length": 20,
+    "last-user": "aoi",
+    "messages": [
+        
+    ],
+    "forgotten_messages": [
+       
+    ]
+}
