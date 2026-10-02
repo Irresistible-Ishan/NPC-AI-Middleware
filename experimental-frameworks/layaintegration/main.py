@@ -16,12 +16,12 @@ client = AsyncClient()
 def get_time():
     time = datetime.now().strftime("%I:%M %p")
     return time
-
-response = await client.chat(
+"""
+response = client.chat(
             model = "jaahas/qwen3.5-uncensored:4b " ,
-            messages=  [{'role' : 'user' , 'content' : prompt}], 
+            messages=  [{'role' : 'user' , 'content' : "hello"}], 
             think = False)
-
+"""
 # ------------ laya testing ---------------
 
 
