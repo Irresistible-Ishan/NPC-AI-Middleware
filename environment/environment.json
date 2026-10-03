@@ -1,0 +1,59 @@
+[
+    {
+        "iuno": [
+            52,
+            51
+        ],
+        "aoi": [
+            98,
+            96
+        ],
+        "ishan": [
+            24,
+            34
+        ]
+    },
+    {
+        "living-room": {
+            "index": [
+                0,
+                50,
+                0,
+                50
+            ],
+            "people": [
+                "ishan"
+            ]
+        },
+        "gallery": {
+            "index": [
+                51,
+                100,
+                0,
+                50
+            ],
+            "people": []
+        },
+        "bedroom": {
+            "index": [
+                51,
+                100,
+                51,
+                100
+            ],
+            "people": [
+                "iuno",
+                "aoi"
+            ]
+        },
+        "entrance": {
+            "index": [
+                0,
+                50,
+                51,
+                100
+            ],
+            "people": []
+        }
+    }
+]
