@@ -18,6 +18,7 @@ rooms = {
     "entrance" : {"index": [0, 50 , 51, 100] , "people": []}
     }
 
+freshcopy = [characters , rooms]
 # -------------------
 
 mapping = [["" for i in range(100)] for j in range(100)]
@@ -61,12 +62,19 @@ def identify_position():
         if set == 0:
             print(f"couldnt find room of {all} , position : {characters[all]}")
 
+def resetnbeing():
+    global freshcopy , characters , rooms
+    characters = freshcopy[0]
+    rooms = freshcopy[1]
+    send_json()
+    print("Environment has been fully reset")
+
 
 #while True:
     # this is the world clock later ill replace with pygame
 
 # reset to initial 
-send_json()
+resetnbeing()
 s = time.time()
 for i in range(1000):
     call_json()
